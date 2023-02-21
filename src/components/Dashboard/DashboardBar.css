@@ -1,0 +1,27 @@
+.dashoard-bar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFBF3;
+    border-right: 1px solid #CECECE;
+}
+.dashoard-bar img{
+    width: 91px;
+    height: 91px;
+}
+.dashoard-bar > div{
+    padding: 0 20px;
+}
+.dashoard-bar > div:nth-child(2){
+    border-right: 4px solid #FFC248;
+}
+.dashoard-bar svg{
+    padding: 28px;
+    border-radius: 50%;
+}
+.dashoard-bar svg:first-child{
+    background: #FFC248;
+}
+.dashoard-bar > div:last-child svg{
+    background: red;
+}

@@ -1,0 +1,18 @@
+.side-bar{
+    background-color: #FFFBF3;
+    width: 121px;
+    /* min-height: 100vh; */
+}
+.side-bar > div{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin: 0 20px;
+}
+.side-bar svg:first-child, .side-bar svg:last-child{
+    background-color: #FFC248;
+}
+.side-bar svg{
+    padding: 28px;
+    border-radius: 50%;
+}

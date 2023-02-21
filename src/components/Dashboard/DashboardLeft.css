@@ -1,0 +1,61 @@
+.Dashboard-left{
+    background-color: #FFFBF3;
+    border-right: 1px solid #CECECE;
+    padding-left: 14px;
+    padding-right: 30px;
+}
+.Dashboard-left > div:first-child > h1{
+    font-size: 28px;
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 6px;
+}
+.Dashboard-left > div > p{
+    margin: 0;
+}
+/* .current-blanace-cart{
+    background-position: center;
+    background-size: cover;
+} */
+.current-blanace-cart{
+    padding: 23px 40px;
+    padding-bottom: 41px;
+    border-radius: 28px;
+    min-width: 424px;
+    box-shadow: 0px 3px 75px rgba(0, 0, 0, 0.1);
+    margin-top: 80px;
+}
+.current-blanace-cart > p{
+    font-weight: 500;
+}
+.current-blanace-cart > div{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    margin-top: 33px;
+}
+.current-blanace-cart > div h1{
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 8px;
+    margin-top: 0;
+}
+.current-blanace-cart > div p{
+    margin: 0;
+}
+
+.Dashboard-left .activity{
+    
+}
+.Dashboard-left .activity > p{
+    color: #EB001B;
+}
+.Dashboard-left .activity hr{
+    border: 1px solid #CECECE;
+}
+.Dashboard-left .activity .title{
+    font-size: 14px;
+    color: #767676;
+    text-transform: capitalize;
+    
+}
