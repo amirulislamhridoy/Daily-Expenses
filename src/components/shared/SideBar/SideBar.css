@@ -1,6 +1,7 @@
 .side-bar{
     background-color: #FFFBF3;
     width: 121px;
+    padding-top: 30px;
     /* min-height: 100vh; */
 }
 .side-bar > div{
