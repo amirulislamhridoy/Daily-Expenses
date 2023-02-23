@@ -1,8 +1,8 @@
 # Kösten
-** * This website is daily expenses traking website. **
-## [Live Link](https://cool-dango-71a2b6.netlify.app/) ## [Client side code link](https://github.com/amirulislamhridoy/daily-expenses.git) ## [server side code link](https://github.com/amirulislamhridoy/daily-expenses-server.git)
+** This website is daily expenses traking website. **
+## [Live Link](https://cool-dango-71a2b6.netlify.app/) [Client side code link](https://github.com/amirulislamhridoy/daily-expenses.git) [server side code link](https://github.com/amirulislamhridoy/daily-expenses-server.git)
 
-## **This website used technologies **
+## This website used technologies
 #### *React, Nodejs, MongoDB, Mongose, MVC Pattern etc.*
 
 <!-- # Getting Started with Create React App
