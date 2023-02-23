@@ -5,7 +5,7 @@ import useDate from '../../hook/useDate';
 
 const DashboardLeft = () => {
     const today = new Date()
-    var yesterday = new Date(Date.now() - 86400000);
+    const yesterday = new Date(Date.now() - 86400000);
     const [allExpenses] = useDate()
     const [todayFullDate, setTodayFullDate] = useState('')
     const [yesterdayFullDate, setYesterdayFullDate] = useState('')

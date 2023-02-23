@@ -4,7 +4,7 @@ import { useState } from 'react';
 const useDate = () => {
     const [allExpenses, setAllExpenses] = useState([])
     useEffect(() => {
-        fetch('expenses.json')
+        fetch('https://daily-expenses-server.vercel.app/getAll')
         .then(res => res.json())
         .then(data => {
             setAllExpenses(data)

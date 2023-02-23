@@ -1,8 +1,11 @@
 import React from 'react';
 import './DashboardRight.css';
 import profilePhoto from '../../assets/profile-photo.jpeg';
+import useDate from '../../hook/useDate';
 
 const DashboardRight = () => {
+    const [allExpenses] = useDate()
+    
     return (
         <div className='dashboard-right'>
             <div className='dashboard-right-header'>
